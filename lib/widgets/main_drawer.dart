@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meals_app/screens/filter_screen.dart';
 
 class MainDrawer extends StatelessWidget {
   const MainDrawer({Key? key}) : super(key: key);
@@ -38,7 +39,7 @@ class MainDrawer extends StatelessWidget {
               ),
             ),
             onTap: () {
-              Navigator.of(context).pushNamed('/');
+              Navigator.of(context).pushReplacementNamed('/');
             },
           ),
           ListTile(
@@ -54,7 +55,10 @@ class MainDrawer extends StatelessWidget {
                 fontWeight: FontWeight.w700,
               ),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.of(context)
+                  .pushReplacementNamed(FilterScreen.routeName);
+            },
           ),
         ],
       ),
