@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
       ),
-      home: TabScreen(),
+      // home: TabScreen(),
       routes: {
         '/': (ctx) => TabScreen(),
         '/categories-meals': (ctx) => CategoryMealsScreen(),
