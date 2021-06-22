@@ -72,7 +72,7 @@ class MealDetailScreen extends StatelessWidget {
               ),
               margin: EdgeInsets.all(10),
               padding: EdgeInsets.all(10),
-              height: 300,
+              height: 250,
               width: 300,
               child: ListView.builder(
                 itemBuilder: (ctx, idx) {
