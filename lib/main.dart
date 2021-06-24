@@ -2,14 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:meals_app/screens/filter_screen.dart';
 import 'package:meals_app/screens/meal_detail-screen.dart';
 import 'package:meals_app/screens/tab_screen.dart';
-import 'screens/categories_screen.dart';
 import 'screens/category_meals_screen.dart';
 
 void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -31,7 +35,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: TabScreen(),
       routes: {
-        '/': (ctx) => TabScreen(),
+        '/': (ctx) => TabScreen(), //considered as home
         '/categories-meals': (ctx) => CategoryMealsScreen(),
         MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
         FilterScreen.routeName: (ctx) => FilterScreen()
