@@ -1,16 +1,38 @@
-# meals_app
+# Meals App
 
-A new Flutter project.
+Recipe for various meals
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
-## Getting Started
+## Tech Stack
 
-This project is a starting point for a Flutter application.
+Flutter / Dart by Google
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Responsive UI Lanscape
+- Navigation Drawer, Tabs, Image assets
+- Canvas, Custom fonts, etc.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<img src="https://res.cloudinary.com/returnoftheking/image/upload/v1627074896/personal_expense/Screenshot_1627071410_jylhuw.png" alt="screenshot" width="300"/>
+
+<img src="https://res.cloudinary.com/returnoftheking/image/upload/v1627076174/meals_app/Screenshot_1627076095_htmy9q.png" alt="screenshot" width="300" />
+
+<img src="https://res.cloudinary.com/returnoftheking/image/upload/v1627076173/meals_app/Screenshot_1627076106_oknmdd.png" alt="screenshot" width="300" />
+
+<img src="https://res.cloudinary.com/returnoftheking/image/upload/v1627076172/meals_app/Screenshot_1627076059_l3f2zn.png" alt="screenshot" width="300" />
+
+<img src="https://res.cloudinary.com/returnoftheking/image/upload/v1627076175/meals_app/Screenshot_1627076072_khq5gw.png" alt="screenshot" width="300" />
+
+<img src="https://res.cloudinary.com/returnoftheking/image/upload/v1627076171/meals_app/Screenshot_1627076049_qzselh.png" alt="screenshot" width="300" />
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at tilak.madichetti@gmail.com
+
+
+
+
