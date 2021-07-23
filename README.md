@@ -15,8 +15,6 @@ Flutter / Dart by Google
 ## Screenshots
 
 
-<img src="https://res.cloudinary.com/returnoftheking/image/upload/v1627074896/personal_expense/Screenshot_1627071410_jylhuw.png" alt="screenshot" width="300"/>
-
 <img src="https://res.cloudinary.com/returnoftheking/image/upload/v1627076174/meals_app/Screenshot_1627076095_htmy9q.png" alt="screenshot" width="300" />
 
 <img src="https://res.cloudinary.com/returnoftheking/image/upload/v1627076173/meals_app/Screenshot_1627076106_oknmdd.png" alt="screenshot" width="300" />
